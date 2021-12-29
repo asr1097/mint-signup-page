@@ -4,11 +4,108 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Intuit Accounts - Sign Up</title>
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="images/favicon.png" rel="icon" type="image/png">
+        <link href="style.css" rel="stylesheet" >
     </head>
     <body>
-        <header></header>
-        <main></main>
-        <footer></footer>
+        <header>
+            <div class="header-container">
+                <div class="text-container-right">
+                    <p>Already have an Intuit account?</p>
+                    <a href="#">I forgot my User ID or Password</a>
+                </div>
+                <div class="btn-div">
+                    <span class="material-icons">
+                        lock
+                    </span>
+                    <span>Sign in</span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="logo-container">
+                <a class="logo"></a>
+            </div>
+            <div class="logos-container">
+                <ul>
+                    <li>
+                        <a href=#>
+                            <img class="logo-img m" src="images/mint.png">
+                            <img class="logo-text" src="images/mint-text.svg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href=#>
+                            <img class="logo-img q" src="images/quickbooks.png">
+                            <img class="logo-text qt" src="images/quickbooks-text.svg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href=#>
+                            <img class="logo-img t" src="images/turbotax.png">
+                            <img class="logo-text tt" src="images/turbotax-text.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form>
+                <legend>
+                    Create an Intuit account
+                    <span class="legend-span">
+                        One account for everything Intuit, including <br>Mint. <a href="#">Learn more</a>
+                    </span>
+                </legend>
+                <div class="inputs">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="phone">Phone<span> (recommended)</span></label>
+                    <input type="text" id="phone">
+                    <span class="span-phone">Standard call, message, or data rates may apply.</span>
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <span class="material-icons password-icon">
+                        lock_open
+                    </span>
+                    <div class="create-btn">
+                        <div class="btn-content">
+                            <span class="material-icons">
+                                lock
+                            </span>
+                            <span>Create Account</span>
+                        </div>
+                    </div>
+                    <span class="inputs-bottom-span">
+                        By selecting Create account, you agree to our <a href="#">Terms</a> and
+                        <br> have read and acknowledge our <a href="#">Global Privacy <br>Statement</a>.<br>
+                        <span class="bold">Updates effective on January 10, 2022</span>
+                    </span>
+                </div>
+                <footer>
+                    Invisible reCAPTCHA by Google <a href="#">&nbsp;Privacy Policy&nbsp;</a> and <a href="#">&nbsp;Terms of Use</a>.
+                </footer>
+            </form>
+            <footer>
+                <ul>
+                    <li>
+                        <a class="f-a" href="#">Legal</a>
+                    </li>
+                    <li>
+                        <a class="f-a" href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a class="f-a" href="#">Security</a>
+                    </li>
+                </ul>
+                <span class="f-s">
+                    Legal Privacy Security
+                    © 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br> 
+                    Terms and conditions, features, support, pricing, and service options subject to change without notice.
+                </span>
+            </footer>
+        </main>
+        <footer class="m-f">
+            <a href="#">Privacy Settings</a>
+        </footer>
     </body>
 </html>
